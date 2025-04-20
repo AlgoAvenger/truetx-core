@@ -1,0 +1,14 @@
+name: Custom Request
+description: Anything else? Use this free-form request
+title: "[REQUEST] "
+labels: [question]
+assignees: []
+body:
+  - type: textarea
+    id: custom-details
+    attributes:
+      label: Details
+      description: Share anything that doesn't fit other categories.
+      placeholder: "I'd like to ask about..."
+    validations:
+      required: false
