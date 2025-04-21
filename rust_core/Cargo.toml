@@ -1,0 +1,11 @@
+[package]
+name = "truetx_core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = "1.0"
+serde_json = "1.0"
+
+[dev-dependencies]
+assert_cmd = "2.0.0"
