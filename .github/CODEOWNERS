@@ -1,1 +1,7 @@
-* @your-username
+# Require review for all files
+*       @your-username
+
+# Optional: Require specific owners for sensitive folders
+/docs/  @your-username
+/scripts/ @your-username
+/.github/ @your-username
