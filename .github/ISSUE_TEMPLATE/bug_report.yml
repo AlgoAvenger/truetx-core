@@ -1,9 +1,38 @@
-name: Bug report
-description: Report a bug
-title: "[Bug] "
+name: Bug Report
+description: File a bug report
+title: "[BUG] "
 labels: [bug]
+assignees: []
 body:
-  - type: textarea
-    id: bug
+  - type: markdown
     attributes:
-      label: Describe the bug
+      value: |
+        Thanks for reporting a bug! Please fill out the following to help us fix it faster.
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, Browser, Device, etc.
+      placeholder: "Windows 11, Firefox 120, Pixel 6"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Please describe the bug clearly.
+      placeholder: "When I clicked on X, it crashed..."
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Help us reproduce it.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. Scroll down to '...'
+        4. See error
+    validations:
+      required: true
