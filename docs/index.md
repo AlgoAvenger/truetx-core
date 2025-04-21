@@ -1,17 +1,25 @@
----
-title: Welcome to TrueTx Core
-nav_order: 1
-description: Triple-entry accounting. Modular. Secure.
----
+# TrueTx Core
 
-# Welcome to TrueTx Core
+Welcome to the **TrueTx Core** documentation.
 
-This is the official documentation for the TrueTx Core protocol.
+TrueTx is a modular, audit-grade transaction layer inspired by Open Transactions, enhanced with modern features like:
+- 🧠 AI risk scanners
+- 🔒 Triple-entry accounting receipts
+- 📜 Ricardian contract support
+- ⚡ Offline-capable transaction execution
+- 🧩 Modular smart instruments (cheques, vouchers, etc.)
 
-Explore:
-- 🔐 Triple-entry receipts
-- 📊 Risk engine + ZK verifications
-- 🤖 Autonomous agents + audit trails
-- 🧱 Modular applets + smart contracts
+## Key Features
 
-Start with [Getting Started](getting-started.md)
+- ✅ Triple-signed receipts
+- ✅ zk-proof-ready notarization
+- ✅ Audit-verifiable balances
+- ✅ Modular GitHub automation for publishing
+
+## Who is this for?
+
+- Developers building secure transaction systems
+- Open-source contributors wanting to extend secure finance tooling
+- Auditors, researchers, and privacy engineers
+
+👉 Check out the [Getting Started guide](getting-started.md) to begin.
