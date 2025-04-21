@@ -1,24 +1,10 @@
 # Getting Started
 
-## 1. Clone the repository
+This page will guide you through installing and using TrueTx Core.
 
-```bash
-git clone https://github.com/your-username/truetx-core.git
-cd truetx-core
-```
+## Setup
 
-## 2. Setup Environment
-
-Copy the `.env.example` to `.env` and fill in the required fields:
-
-```bash
-cp .env.example .env
-```
-
-## 3. Run Scripts
-
-```bash
-python push_meta.py
-```
-
-> This will set up your repo metadata including CI, templates, etc.
+1. Clone the repo
+2. Install dependencies
+3. Run the pusher script
+4. Start building trustless apps
