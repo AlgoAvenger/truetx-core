@@ -1,0 +1,9 @@
+site_name: TrueTx Core Docs
+nav:
+  - Home: index.md
+  - Architecture: architecture.md
+  - Installation: install.md
+  - API Reference: api.md
+  - Contributing: contributing.md
+theme:
+  name: readthedocs
